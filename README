@@ -1,0 +1,3 @@
+Taken a university has 1 to 20 different department and each department has 1 to 5 professors. There is a composition link between a University and its' departments. There is a aggregation link between a department and its' professors.
+
+Composition is just a STRONG aggregation, if the university is destroyed then the departments should also be destroyed. But we shouldn't kill the professors even if their respectives departments disappear.
